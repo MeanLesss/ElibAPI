@@ -4,8 +4,17 @@ This API is made for retrieving and categorize books and users to a group to sha
 
 
 # **Before getting stated**
- Please find run the sql to create datebase first as below
+
+ 1. Please find run the sql to create datebase first as below
  **[Create Datebase Sql](create%20table-script.sql)**
+ 2. Update `appsettiing.json` configure database to you endpoint.
+   
+ ```
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=kang_sokvimean-library.db",
+    "LibDbContext": "Data Source=LAPTOP-QFUA5EK6\\SQLEXPRESS;Initial Catalog=ELibrary;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+  },
+ ```
 
 
 ## Application usage:
